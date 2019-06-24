@@ -25,6 +25,8 @@ fi
 
 ROOTDIR=$PWD
 SRC=$PWD/src
+mkdir -p $SRC
+mkdir -p $ROOTDIR/build
 
 cd $SRC
 if [ ! -e linux_4.4.0.orig.tar.gz ]; then
